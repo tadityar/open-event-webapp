@@ -4,6 +4,50 @@
 .input-box{
   display:inline-flex;
 }
-.main_container{
-	background-color:#172d44;
+.imagestyle{
+	width: 80px;
+	height:80px;
+    border-radius: 50%;
+    margin: 8%;
+}
+.card{
+	margin-top:30%;
+    width: 250px;
+    height: 448px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0 0.125em 0.275em 0 rgba(0,0,0,0.125);
+}
+.card-img-top{
+	width:248px;
+	height:248px;
+	margin:0 auto;
+	overflow: hidden;
+	display:block;
+}
+.card-block{
+	margin:7%;
+	height:530px;
+
+}
+.card-text{
+	color: #2482d3;
+    overflow: hidden;
+}
+
+.left_col.scroll-view{
+	position: fixed;
+    background-color: #172d44;
+    height : 700px;
+}
+.org{
+	font-size : 16px;
+}
+.readoption {
+	padding:6px;
+	font-size:13px;
+	margin:4px;
+}
+.right_col{
+ min-height: 104px !important;
 }

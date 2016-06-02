@@ -1,0 +1,21 @@
+<div class="container" ng-controller="SpeakersController">
+       <div class="row" ng-repeat="rows in newArr">
+            <div class="col-md-4" ng-repeat="item in rows">
+                <div class="center card">
+                    <img class="card-img-top" ng-src="{{item.photo}}" alt="Card image cap">
+                 <div class="card-block">
+                    <center><h3 class="card-text">{{item.name}}</h3></center>
+                    <center><h4 class="card-text org">{{item.organisation}}</h4></center>
+                    <div class="row">
+                    <div class="text-center col-md-12">
+                        {{item.biography|limitTo:100}}
+                    </div>
+                    </div>
+                    </br>
+                    <div class="text-center row">Read More ...</div>
+                   
+                 </div>  
+                </div>
+            </div>
+        </div>
+</div>
